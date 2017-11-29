@@ -20,7 +20,7 @@
   "scripts": {
     "test": "standard src/*.js && electron test/app",
     "travis": "standard src/*.js",
-    "prepublish": "gulp build"
+    "install": "gulp build"
   },
   "author": "Jens Lind <jens@jensl.se> (jenslind.com)",
   "license": "MIT",
